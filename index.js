@@ -11,6 +11,9 @@ app.get('/hello-world-2', (req, res) => {
 app.get('/hello-world-3', (req, res) => {
   res.send('halo dunia dari endpoint 3!');
 })
+app.get('/hello-world-4', (req, res) => {
+  res.send('halo dunia dari endpoint 3!');
+})
 app.listen(port, () => {
   console.log(`App	listening	on	port	${port}`);
 });
